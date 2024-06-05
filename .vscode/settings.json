@@ -1,0 +1,10 @@
+{
+  "eslint.experimental.useFlatConfig": true,
+
+  // Auto fix on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "never"
+  },
+  "cSpell.words": ["Attributify", "unocss"]
+}
