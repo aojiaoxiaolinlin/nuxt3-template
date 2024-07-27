@@ -1,10 +1,9 @@
 {
   // Enable the ESlint flat config support
-  "eslint.experimental.useFlatConfig": true,
+  "eslint.useFlatConfig": true,
   // Auto fix on save
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
-    "source.fixAll.stylelint": "never"
   },
   "cSpell.words": ["Attributify", "unocss"]
 }
