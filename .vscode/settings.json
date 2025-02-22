@@ -1,11 +1,49 @@
 {
   // Enable the ESlint flat config support
-  "eslint.useFlatConfig": true,
+  // "eslint.useFlatConfig": true,
   // Auto fix on save
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
   },
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.formatOnSave": false,
+    // 在使用搜索功能时，将这些文件夹/文件排除在外
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/*.log": true,
+      "**/*.log*": true,
+      "**/bower_components": true,
+      "**/dist": true,
+      "**/elehukouben": true,
+      "**/.git": true,
+      "**/.github": true,
+      "**/.gitignore": true,
+      "**/.svn": true,
+      "**/.DS_Store": true,
+      "**/.vitepress/cache": true,
+      "**/.idea": true,
+      "**/.vscode": false,
+      "**/.yarn": true,
+      "**/tmp": true,
+      "*.xml": true,
+      "out": true,
+      "dist": true,
+      "node_modules": true,
+      "CHANGELOG.md": true,
+      "**/pnpm-lock.yaml": true,
+      "**/yarn.lock": true
+    },
+    "cSpell.ignorePaths": [
+      "**/settings.json",
+      "package-lock.json",
+      "node_modules",
+      "vscode-extension",
+      ".git/{info,lfs,logs,refs,objects}/**",
+      ".git/{index,*refs,*HEAD}",
+      ".vscode",
+      ".vscode-insiders"
+    ],
   "cSpell.words": [
     "Attributify",
     "unocss"
